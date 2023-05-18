@@ -1,0 +1,148 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thank_you
+  - tell_pet_joke
+  - ask_pet_weight
+  - coat_health
+  - cat_health
+  - dog_toys
+  - pet_entertainment
+  - vet_checkup
+  - summer_safety
+  - cat_treats
+  - weight_loss
+  - dog_health
+  - cat_toys
+  - vomiting
+  - car_rides
+  - dog_treats
+  - dental_health
+  - cat_behavior
+  - rabbit_toys
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Goodbye! Take care of your pet 🐶."
+
+  utter_iamabot:
+  - text: "I am a PetBot, made by Vortex ☁️."
+
+  utter_you_are_welcome:
+  - text: "You're welcome! Happy to help ❤️."
+  - text: "Ofc! Anything to help *woof* 🐕."
+  - text: "You're welcome! Ask me anything anytime!"
+
+  utter_tell_pet_joke:
+  - text: "🐶🌭😋 Why did the hot dog run a marathon? To ketchup to the other runners!"
+  - text: "🦆🍪👀 Why did the duck steal a cookie? Because he was feeling a little 'quackers'!"
+  - text: "🐱🎵🎤 What do you call a singing cat? A meow-sician!"
+  - text: "🍇🐕🐕‍🦺 What did the grape say when the dog stepped on it? Nothing, it just let out a little 'whine'!"
+
+  utter_pet_weight_advice:
+  - text: "Determining if your pet is overweight can be challenging, but there are a few signs to look out for. For example, if you can't feel your pet's ribs when you run your hands along their sides, they may be carrying excess weight. Additionally, if your pet has trouble moving around or seems to tire easily, this may be a sign that they need to lose some weight."
+    image: "https://i.shgcdn.com/af08fcb6-53c0-4c14-9e6e-3e83db2d4439/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+  - text: "It's important to keep in mind that different breeds of animals may have different healthy weight ranges, so what's considered 'fat' for one animal may be normal for another. However, if you're concerned about your pet's weight, it's always a good idea to consult with your veterinarian. They can help you determine if your pet is at a healthy weight and provide advice on how to help your pet lose weight if necessary"
+    image: "https://i.shgcdn.com/af08fcb6-53c0-4c14-9e6e-3e83db2d4439/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+  - text: "One way to assess whether your pet is overweight is to use a body condition score chart. This involves assessing your pet's body shape and size and comparing it to a set of visual references. Your veterinarian can provide you with a body condition score chart and help you evaluate your pet's weight."
+    image: "https://i.shgcdn.com/bc1c3015-aacc-4131-9895-66d4429c2250/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+  - text: "If you're unsure whether your pet is overweight, a good rule of thumb is to feel their ribs. You should be able to feel them easily without having to press too hard. If you can't feel them or if there is a layer of fat covering them, your pet may be overweight. Other signs of obesity can include a round belly, difficulty breathing, and reluctance to exercise."
+    image: "https://i.shgcdn.com/bc1c3015-aacc-4131-9895-66d4429c2250/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+  - text: "Maintaining a healthy weight is important for your pet's overall health and longevity. If you're concerned that your pet may be overweight, it's important to take action to help them lose weight. This may involve adjusting their diet, increasing their exercise, or both. Your veterinarian can provide guidance on the best approach for your pet."
+    image: "https://i.shgcdn.com/bc1c3015-aacc-4131-9895-66d4429c2250/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+
+  utter_coat_health:
+  - text: "Here are some tips for keeping your pet's coat healthy:\n
+      1. Brush your pet's coat regularly to remove dead hair and distribute natural oils.\n
+      2. Bathe your pet when necessary using a pet-specific shampoo.\n
+      3. Feed your pet a healthy diet that includes essential fatty acids.\n
+      4. Provide your pet with regular exercise to promote healthy circulation and skin health."
+
+  utter_cat_health:
+  - text: "To keep your cat healthy, here are some tips:\n 1. Schedule regular checkups with your vet.\n 2. Keep your cat's litter box clean to prevent infections.\n 3. Feed your cat a healthy diet that meets their nutritional needs.\n 4. Provide your cat with plenty of fresh water to stay hydrated."
+  utter_dog_toys:
+  - text: "There are many types of toys that dogs enjoy. Here are some popular options: \n
+      1. Chew toys: These help keep your dog's teeth clean and healthy.\n
+      2. Interactive toys: These keep your dog mentally stimulated and entertained.\n
+      3. Fetch toys: These are great for playing outdoors with your dog."
+
+  utter_pet_entertainment:
+  - text: "Here are some ideas for pet entertainment:\n
+      1. Play with your pet using toys and games.\n
+      2. Provide your pet with a scratching post or climbing tree if they are a cat.\n
+      3. Create an obstacle course or agility course for your dog."
+
+  utter_vet_checkup:
+  - text: "It is important to schedule regular checkups with your vet to ensure your pet's health. Generally, dogs and cats should have a checkup at least once a year. However, some pets may require more frequent checkups based on their age or health conditions."
+
+  utter_summer_safety:
+  - text: "To keep your pet safe during the summer, here are some tips:\n
+      1. Provide your pet with plenty of water to prevent dehydration.\n
+      2. Never leave your pet in a parked car.\n
+      3. Avoid exercising your pet during the hottest part of the day."
+
+  utter_cat_treats:
+  - text: "When it comes to treats for cats, it's important to choose healthy options in moderation. Here are some good options:\n
+      1. Treats that are high in protein and low in carbohydrates.\n
+      2. Treats made with natural ingredients.\n
+      3. Treats that are specifically designed for dental health."
+
+  utter_weight_loss:
+  - text: "If your pet needs to lose weight, here are some tips:\n
+      1. Consult with your vet to create a weight loss plan.\n
+      2. Feed your pet smaller, more frequent meals throughout the day.\n
+      3. Provide your pet with plenty of exercise to help burn calories."
+
+  utter_dog_health:
+  - text: "To keep your dog healthy, here are some tips:\n
+      1. Schedule regular checkups with your vet.\n
+      2. Keep your dog's teeth clean by brushing them regularly.\n
+      3. Provide your dog with regular exercise and a healthy diet."
+
+  utter_cat_toys:
+  - text: "Cats love toys that stimulate their hunting instincts. Some popular cat toys include feather wands, laser pointers, and interactive puzzle toys. You can also try providing them with catnip toys or scratching posts."
+
+  utter_vomiting:
+  - text: "If your pet is vomiting, it could be a sign of a serious medical issue. You should monitor your pet's behavior and contact your veterinarian if the vomiting persists or if your pet appears lethargic or uncomfortable. In the meantime, you can try giving your pet small amounts of water to prevent dehydration."
+
+  utter_car_rides:
+  - text: "Some pets can be anxious or uncomfortable during car rides. You can help your pet feel more comfortable by providing them with a comfortable carrier or car harness, taking frequent breaks to allow them to stretch their legs and use the bathroom, and playing calming music or using calming sprays or treats."
+
+  utter_dog_treats:
+  - text: "When it comes to dog treats, it's important to choose treats that are nutritious and appropriate for your dog's size and age. \n
+      Some healthy dog treats include carrots, apples, and low-fat plain yogurt. \n
+      Avoid giving your dog treats that are high in fat, sugar, or salt, as well as any human food that can be harmful to dogs, such as chocolate or grapes. \n
+      You can also check out our Pet store where there are a lot of healthy treats to buy for your dog 🦴🐕‍🦺!"
+
+  utter_dental_health:
+  - text: "Dental health is an important aspect of your pet's overall health. You can help maintain your pet's dental health by providing them with dental chews or toys that help clean their teeth, as well as regularly brushing their teeth with a pet-safe toothbrush and toothpaste. It's also important to schedule regular dental check-ups with your veterinarian."
+
+  utter_cat_behavior:
+  - text: "Cats can exhibit a variety of behavioral issues, such as litter box problems, aggression, or destructive behavior. If you're experiencing behavioral problems with your cat, it's important to rule out any medical issues and work with your veterinarian to address the behavior. You can also try providing your cat with plenty of toys and scratching posts, as well as providing them with a consistent routine and environment."
+
+  utter_rabbit_toys:
+  - text: "Rabbits enjoy toys that allow them to chew and dig. Some popular rabbit toys include wooden blocks, willow balls, and cardboard boxes. You can also try providing them with tunnels or mazes, or hiding treats inside toys to provide mental stimulation." 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

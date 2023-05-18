@@ -1,0 +1,125 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: thank user
+  steps:
+  - intent: thank_you
+  - action: utter_you_are_welcome
+
+- story: tell pet joke
+  steps:
+  - intent: tell_pet_joke
+  - action: utter_tell_pet_joke
+
+- story: provide advice on pet weight
+  steps:
+  - intent: ask_pet_weight
+  - action: utter_pet_weight_advice
+
+- story: coat_health
+  steps:
+  - intent: coat_health
+  - action: utter_coat_health
+
+- story: cat_health
+  steps:
+  - intent: cat_health
+  - action: utter_cat_health
+
+- story: dog_toys
+  steps:
+  - intent: dog_toys
+  - action: utter_dog_toys
+
+- story: pet_entertainment
+  steps:
+  - intent: pet_entertainment
+  - action: utter_pet_entertainment
+
+- story: vet_checkup
+  steps:
+  - intent: vet_checkup
+  - action: utter_vet_checkup
+
+- story: summer_safety
+  steps:
+  - intent: summer_safety
+  - action: utter_summer_safety
+
+- story: cat_treats
+  steps:
+  - intent: cat_treats
+  - action: utter_cat_treats
+
+- story: weight_loss
+  steps:
+  - intent: weight_loss
+  - action: utter_weight_loss
+
+- story: dog_health
+  steps:
+  - intent: dog_health
+  - action: utter_dog_health
+
+- story: cat_toys
+  steps:
+  - intent: cat_toys
+  - action: utter_cat_toys
+
+- story: vomiting
+  steps:
+  - intent: vomiting
+  - action: utter_vomiting
+
+- story: car_rides
+  steps:
+  - intent: car_rides
+  - action: utter_car_rides
+
+- story: dog_treats
+  steps:
+  - intent: dog_treats
+  - action: utter_dog_treats
+
+- story: dental_health
+  steps:
+  - intent: dental_health
+  - action: utter_dental_health
+
+- story: cat_behavior
+  steps:
+  - intent: cat_behavior
+  - action: utter_cat_behavior
+
+- story: rabbit_toys
+  steps:
+  - intent: rabbit_toys
+  - action: utter_rabbit_toys

@@ -1,0 +1,211 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thank_you
+  examples: |
+    - Thanks
+    - Thank you
+    - Appreciate it
+    - ty
+    - you are amazing
+
+- intent: tell_pet_joke
+  examples: |
+    - Can you tell me a pet joke?
+    - Do you know any funny animal jokes?
+    - I could use a good laugh, tell me a pet joke.
+    - joke
+    - give me a joke
+
+- intent: ask_pet_weight
+  examples: |
+    - Is my pet too fat?
+    - How do I know if my pet is overweight?
+    - My pet looks bigger than usual, is it overweight?
+    - Is my dog fat
+    - Is my animal obese
+
+- intent: coat_health
+  examples: |
+    - How can I keep my pet's coat healthy?
+    - What can I do to maintain a healthy coat for my pet?
+    - Tips for grooming my pet's coat?
+
+- intent: cat_health
+  examples: |
+    - What are the most common health problems in cats?
+    - How can I keep my cat healthy?
+    - Tips for taking care of my cat's health?
+
+- intent: dog_toys
+  examples: |
+    - What kind of toys are best for dogs?
+    - What are some popular dog toys?
+    - How can I keep my dog entertained?
+
+- intent: pet_entertainment
+  examples: |
+    - What are the best ways to keep my pet entertained?
+    - How can I play with my pet?
+    - Ideas for pet entertainment?
+
+- intent: vet_checkup
+  examples: |
+    - How often should I take my pet to the vet?
+    - When should I schedule a checkup for my pet?
+    - How can I ensure my pet is healthy?
+
+- intent: summer_safety
+  examples: |
+    - How can I keep my pet safe during the summer?
+    - What are some summer safety tips for pets?
+    - How can I prevent my pet from overheating?
+
+- intent: cat_treats
+  examples: |
+    - What kind of treats are best for cats?
+    - How can I reward my cat?
+    - What treats should I avoid giving my cat?
+
+- intent: weight_loss
+  examples: |
+    - How can I help my pet lose weight?
+    - What is the best way to help my pet lose weight?
+    - Tips for managing my pet's weight?
+
+- intent: dog_health
+  examples: |
+    - What are the most common health problems in dogs?
+    - How can I keep my dog healthy?
+    - What can I do to take care of my dog's health?
+
+- intent: cat_toys
+  examples: |
+    - What kind of toys are best for cats?
+    - What toys do cats enjoy playing with?
+    - How can I entertain my cat?
+
+- intent: vomiting
+  examples: |
+    - What should I do if my pet is vomiting?
+    - How can I help my pet if they are throwing up?
+    - Is vomiting a sign of a serious problem?
+
+- intent: car_rides
+  examples: |
+    - How can I help my pet feel comfortable during car rides?
+    - What can I do to make car rides less stressful for my pet?
+    - Tips for traveling with my pet?
+
+- intent: dog_treats
+  examples: |
+    - What kind of treats are best for dogs?
+    - How can I reward my dog?
+    - What treats should I avoid giving my dog?
+
+- intent: dental_health
+  examples: |
+    - How can I keep my pet's teeth healthy?
+    - What can I do to prevent dental problems in my pet?
+    - Tips for dental care for pets?
+
+- intent: cat_behavior
+  examples: |
+    - What are the most common behavioral issues in cats?
+    - How can I train my cat to behave better?
+    - Tips for dealing with cat behavior problems?
+
+- intent: rabbit_toys
+  examples: |
+    - What kind of toys are best for rabbits?
+    - What toys do rabbits like to play with?
+    - How can I entertain my rabbit?
