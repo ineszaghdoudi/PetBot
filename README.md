@@ -1,4 +1,4 @@
-# PetBot-AI
+# PetBot-AI 🐶
 
 PetBot 🐾
 
